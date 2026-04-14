@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(), // Now the computer knows what this is!
     react()
   ],
-  base: './', // This ensures the app works correctly when deployed to GitHub Pages
+  base: '/', // This ensures the app works correctly when deployed to Vercel
 })
